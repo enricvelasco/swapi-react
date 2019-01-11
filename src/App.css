@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  text-align: left;
+  background-color: #635f5f;
+  padding: 2em;
 }
 
 .App-logo {
@@ -29,4 +31,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.basic-box{
+  background-color: #efeff1;
+  padding: 1em;
+  margin: 1em;
+}
+
+.content-box{
+  display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="content-box"] {
+    display:grid;
+    width: 100%;
+  }
+}
+
+.underscore-element{
+  border-bottom: 1px solid grey;
 }

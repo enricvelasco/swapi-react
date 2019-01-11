@@ -1,0 +1,21 @@
+#customers {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid grey;
+  padding-left: 1em;
+}
+
+#customers tr:nth-child(even){background-color: white;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  text-align: left;
+  background-color: #5CA4FF;
+  color: white;
+}

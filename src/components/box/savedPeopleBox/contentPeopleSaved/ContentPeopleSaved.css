@@ -1,0 +1,14 @@
+.item-people-saved{
+  background-color: white;
+  margin: 0.25em;
+  border: 1px solid grey;
+}
+.content-people-saved{
+  /*display: flex;*/
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 25%);
+}
+
+.buttons-in-card-saved{
+  text-align: center;
+}
